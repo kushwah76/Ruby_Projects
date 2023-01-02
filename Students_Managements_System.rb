@@ -133,24 +133,23 @@ module Update_StudentsInformations
                 when "2"
                     puts "Enter StudentsClass"
                     studentClass=gets.chomp
-                    arr[2]=studentClass
-                    $array[arr].replace(arr1)
-                    puts "Student Information UpdateSuccessfull...!!!"
+                       arr1[2]=studentClass
+                       $array[arr].replace(arr1)
+                       puts "Student Information UpdateSuccessfull...!!!"
                     Students.Choose_opresion
 
                 when "3"
                     puts "Enter StudentsEmail"
                     studentEmail=gets.chomp
-                    arr[3]=studentEmail
+                    arr1[3]=studentEmail
                     $array[arr].replace(arr1)
                     puts "Student Information UpdateSuccessfull...!!!"
-
                     Students.Choose_opresion
 
                 when "4"
                     puts "Enter StudentsAddress"
                     studentAddress=gets.chomp
-                    arr[4]=studentAddress
+                    arr1[4]=studentAddress
                     $array[arr].replace(arr1)
                     puts "Student Information UpdateSuccessfull...!!!"
 
