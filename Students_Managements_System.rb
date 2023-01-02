@@ -126,6 +126,8 @@ module Update_StudentsInformations
                      studentName=gets.chomp
                        arr1[1]=studentName
                        $array[arr].replace(arr1)
+                       puts "Student Information UpdateSuccessfull...!!!"
+
                      Students.Choose_opresion
 
                 when "2"
@@ -133,6 +135,7 @@ module Update_StudentsInformations
                     studentClass=gets.chomp
                     arr[2]=studentClass
                     $array[arr].replace(arr1)
+                    puts "Student Information UpdateSuccessfull...!!!"
                     Students.Choose_opresion
 
                 when "3"
@@ -140,6 +143,8 @@ module Update_StudentsInformations
                     studentEmail=gets.chomp
                     arr[3]=studentEmail
                     $array[arr].replace(arr1)
+                    puts "Student Information UpdateSuccessfull...!!!"
+
                     Students.Choose_opresion
 
                 when "4"
@@ -147,6 +152,8 @@ module Update_StudentsInformations
                     studentAddress=gets.chomp
                     arr[4]=studentAddress
                     $array[arr].replace(arr1)
+                    puts "Student Information UpdateSuccessfull...!!!"
+
                     Students.Choose_opresion
 
                     else
